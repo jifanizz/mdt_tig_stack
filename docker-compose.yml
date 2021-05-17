@@ -13,7 +13,7 @@ services:
       - monitoring
 
   influxdb:
-    image: influxdb
+    image: influxdb:1.8.5
     container_name: influxdb
     ports:
       - 8086:8086
